@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;600&family=Cinzel:wght@600&family=Fjalla+One&family=Raleway:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Cinzel';
+  background-color: #777;
+}
+.container,.Manual,.localdedados{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 20px 0px;
+}
+.dados{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#userInput{
+  width:80%;
+ padding: 20px;
+ background-color: aliceblue;
+ font-size: 17px;
+}
+#enter{
+  margin-left: 8px;
+  padding: 18px;
+  background-color: aliceblue;
+  font-size: 17px;
+  
+  cursor: pointer;
+}
+#enter:hover{
+  transition: 0.5s;
+  padding: 18px;
+  font-size: 20px;
+   background-color: #2ecc71;
+}
+.dadosnovoul,.dadospaiul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dadosul{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+
+}
+li{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+  background-color: aliceblue;
+  cursor:pointer;
+}
+.selecionado{
+  transition: 0.9s;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #2ecc71;
+}
+.delete{
+  display: none;
+}
+Button{
+  background-color: #899;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  padding: 12px;
+  cursor: pointer;
+}
+Button:hover{
+  transition: 0.9s;
+  font-size: 18px;
+  color: aliceblue;
+  background-color: #ff3838;
+}
